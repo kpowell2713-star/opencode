@@ -6,12 +6,12 @@ build step and nothing is fetched from the network.
 
 ## Using it with a remote
 
-| Remote button            | Home screen                          | Edit mode                      |
-| ------------------------ | ------------------------------------ | ------------------------------ |
-| Arrows                   | Move between tiles                   | Move focus, or a picked-up tile |
-| OK / Enter               | Open the app                         | Move / Remove menu for a tile  |
-| Hold OK (about 1 second) | Enter edit mode                      | —                              |
-| Back                     | —                                    | Drop the tile, then exit edit  |
+| Remote button            | Home screen        | Edit mode                       |
+| ------------------------ | ------------------ | ------------------------------- |
+| Arrows                   | Move between tiles | Move focus, or a picked-up tile |
+| OK / Enter               | Open the app       | Move / Remove menu for a tile   |
+| Hold OK (about 1 second) | Enter edit mode    | —                               |
+| Back                     | —                  | Drop the tile, then exit edit   |
 
 Choose **+ Add app** to add a tile. Your layout is saved on the TV in the browser's local storage.
 After 5 minutes without input the screen dims to a clock; any button wakes it.

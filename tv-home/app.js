@@ -138,7 +138,10 @@ function verticalTarget(step) {
   return [...list.children]
     .map((tile, index) => ({ index, rect: tile.getBoundingClientRect() }))
     .filter((item) => (item.rect.top - from.top) * step > 0)
-    .map((item) => ({ index: item.index, score: Math.abs(item.rect.top - from.top) * 10 + Math.abs(item.rect.left - from.left) }))
+    .map((item) => ({
+      index: item.index,
+      score: Math.abs(item.rect.top - from.top) * 10 + Math.abs(item.rect.left - from.left),
+    }))
     .sort((a, b) => a.score - b.score)[0]?.index
 }
 
